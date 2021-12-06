@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+int a,b;
+clrscr();
+printf("enter the value a\n",a);
+scanf("%d",&a);
+printf("enter the value b\n",b);
+scanf("%d",&b);
+printf("comparing a and b %d<%d\n",a,b,a<b);
+printf("comparing a and b %d>%d\n",a,b,a>b);
+getch();
+}
